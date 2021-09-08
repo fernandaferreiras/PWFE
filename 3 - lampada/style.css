@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -12,13 +12,15 @@ body{
     align-items: center;
     flex-direction: column;
 }
-header{
+
+header {
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-main{
+
+main {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -26,16 +28,17 @@ main{
     align-items: center;
 }
 
-button{
+button {
     width: 100px;
     height: 40px;
     cursor: pointer;
 }
-img{
+
+img {
     cursor: pointer;
 }
 
-footer{
+footer {
     height: 75px;
     justify-content: center;
     align-items: flex-start;

@@ -1,4 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #d02526, #d43a37, #d74b48, #da5a58, #db6968, #db6968, #db6968, #db6968, #da5a58, #d74b48, #d43a37, #d02526);
+}
 
 
 
-/* background-image: linear-gradient(to bottom, #cf2425, #d23131, #d43d3c, #d64747, #d85152, #d85152, #d85152, #d85152, #d64747, #d43d3c, #d23131, #cf2425); */
+
+/* → background-image: linear-gradient(to bottom, #d02526, #d43a37, #d74b48, #da5a58, #db6968, #db6968, #db6968, #db6968, #da5a58, #d74b48, #d43a37, #d02526); */
+/* #D02526 #DC7C7C */
