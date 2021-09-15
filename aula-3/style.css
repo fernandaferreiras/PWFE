@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
 }
 
 body {
@@ -12,6 +14,8 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+/* resolvido */
 
 header {
     height: 150px;
@@ -34,6 +38,25 @@ button {
     cursor: pointer;
 }
 
+button {
+    width: 100px;
+    height: 40px;
+    /* font-size: 1rem;
+    font-weight: 700; */
+    cursor: pointer;
+    background: transparent;
+    color: black;
+    border: 2.5px solid currentColor;
+    border-radius: 5px;
+    transition: 0.25s;
+}   
+
+/* button:hover, button:focus {
+    outline: none;
+    background: black;
+    color: #e1e1e6;
+} */
+
 img {
     cursor: pointer;
 }
@@ -43,4 +66,21 @@ footer {
     justify-content: center;
     align-items: flex-start;
     font-style: italic;
+}
+
+button #piscar {
+    /* background-color: white;
+    color: black; */
+    border: 2.5px;
+    border-color: black;
+}
+
+.verde {
+    background-color: green;
+    color: white;
+}
+
+.vermelho {
+    background-color: red;
+    color: white;
 }
