@@ -1,21 +1,16 @@
 "use strict"
 
 const imagens = [
-    "./img/image - 02.jpg",
-    "./img/image - 03.jpg",
-    "./img/image - 05.jpg",
-    "./img/image - 06.jpg",
-    "./img/image - 07.jpg",
-    "./img/image - 08.jpg",
-    "./img/image - 09.jpg",
-    "./img/image - 01.jpg",
-    "./img/image - 04.jpg",
-    "./img/image - 10.jpg",
-    "./img/image - 11.jpg",
-    "./img/image - 12.jpg",
-    "./img/image - 13.jpg",
-    "./img/image - 14.jpg",
-    "./img/image - 15.jpg",
+    "./img/image-01.png",
+    "./img/image-02.png",
+    "./img/image-03.png",
+    "./img/image-04.png",
+    "./img/image-05.png",
+    "./img/image-06.png",
+    "./img/image-07.png",
+    "./img/image-08.png",
+    "./img/image-09.png",
+    "./img/image-10.png",
 ]
 
 const criarItem = (urlImagem) => {
