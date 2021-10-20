@@ -1,0 +1,23 @@
+{
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": false,
+    "printWidth": 20
+}
+
+
+{
+    "update.mode": "start",
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "One Dark Pro",
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.trailingComma": "es5",
+    "prettier.tabWidth": 4,
+    "prettier.semi": false,
+    "prettier.singleQuote": false,
+    // "prettier.printWidth": 1
+}
